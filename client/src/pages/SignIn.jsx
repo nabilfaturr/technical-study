@@ -4,7 +4,7 @@ import Form from "../components/Form";
 const SignIn = () => {
   return (
     <Layout>
-      <Form />
+      <Form type="Sign In"/>
     </Layout>
   );
 };
