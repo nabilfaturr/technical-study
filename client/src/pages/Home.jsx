@@ -30,14 +30,14 @@ const Home = ({ username, handleSetUsername }) => {
             <span className="flex justify-between">
               <p>
                 Click{" "}
-                <Link to={"/sign-in"} className="text-blue-500 text-lg">
+                <Link to={"/sign-in"} className="text-blue-600 text-lg">
                   here
                 </Link>{" "}
                 for Sign In
               </p>
               <p>
                 Click{" "}
-                <Link to={"/sign-up"} className="text-red-500 text-lg">
+                <Link to={"/sign-up"} className="text-red-600 text-lg">
                   here
                 </Link>{" "}
                 for Sign Up
