@@ -26,7 +26,7 @@ const Form = ({ type, form, handleFormChange, handleSetUsername }) => {
       });
       const data = await response.json();
 
-      if (response.status === 200) {
+      if (response.ok) {
         handleSetUsername(form.username);
         endpoint === "sign-up" ? navigate("/sign-in") : navigate("/");
       } else {
